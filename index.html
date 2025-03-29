@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><i class="fa-solid fa-list"></i> To Do List</h1>
+      <p>Uma to-do list feita por José Isaac 👨🏽‍💻</p>
+    </header>
+    <main>
+      <form>
+        <label for="newTask">Adicione uma nova tarefa:</label>
+        <div class="input-btn">
+          <input type="text" placeholder="Adicione uma nova tarefa" />
+          <button type="submit"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <span id="msg-error"></span>
+      </form>
+      <ul id="lista-tarefas"></ul>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/5432a0e64c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
