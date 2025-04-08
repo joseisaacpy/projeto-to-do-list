@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lista de Tarefas - José Isaac</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -15,7 +16,12 @@
       <form>
         <label for="newTask">Adicione uma nova tarefa:</label>
         <div class="input-btn">
-          <input type="text" placeholder="Adicione uma nova tarefa" />
+          <input
+            type="text"
+            id="newTask"
+            name="newTask"
+            placeholder="Ex: Estudar HTML"
+          />
           <button type="submit"><i class="fa-solid fa-plus"></i></button>
         </div>
         <span id="msg-error"></span>
